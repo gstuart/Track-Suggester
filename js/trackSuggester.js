@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $("#beginBtn").click(function(){
+  $("#beginBtn").click(function() {
     //when the button is clicked do the following:
 
     $("#beginBtn").hide(); //this will hide the beginbtn
@@ -13,15 +13,16 @@ $(document).ready(function() {
     var java1Response = $("input:radio[name=radioBtn]:checked").val;
     var java2Response = $("input:radio[name=radioBtn]:checked").val;
 
-    if ("cssResponse").click(function(){ //if the first answer is yes, then replace the jumbotron with the text below.
-    //  $("#welcome").hide();
-      $("#result").show("You should join the CSS/Design course!");
-    }
-    else {
-      $("#welcome").hide();
-      $("#result").show("You should join the PHP course!");
-    }
-
+    $("#firstbtn").click(function() {
+      if ("cssResponse" === "Yes") { //if the first answer is yes, then replace the jumbotron with the text below.
+        $("#welcome").hide();
+        $("#result").show("You should join the CSS/Design course!");
+      }
+      else {
+        $("#welcome").hide();
+        $("#result").show("You should join the PHP course!");
+      }
+    })
     event.preventDefault();
   });
 });

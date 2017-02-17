@@ -18,6 +18,10 @@
   display: none;
 }
 
+#java2Question {
+  display: none;
+}
+
 #inDemand {
   font-weight: bold;
   font-style: italic;

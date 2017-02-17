@@ -51,18 +51,18 @@ $(document).ready(function() {
                                 $("#welcome").hide(); //hide the jumbotron
                                 $("#result").show("You should join the PHP course!"); //display php course.
                             }
-                          )};
+                          });
                         }
-                      )};
+                      });
                   }
-                )};
+                });
             }
-          )};
+          });
       }
-    )};
+    });
 
     event.preventDefault();
-  )};
+  });
 });
 
     //below is my first attempt at radio button section. Never got the first .show to work but want keep the code below so I can try to figure it out during the weekend.

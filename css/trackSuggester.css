@@ -17,3 +17,8 @@
 #java1Question {
   display: none;
 }
+
+#inDemand {
+  font-weight: bold;
+  font-style: italic;
+}

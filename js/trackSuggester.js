@@ -3,15 +3,37 @@ $(document).ready(function() {
     $("#beginBtn").hide(); //this will hide the beginbtn
     $("#cssQuestion").show(); //this will display the first question.
 
-    var yes = $("input[type='radio'][name=css][id=cssYes]:checked").val();
-    var no = $("input[type='radio'][name=css][id=cssNo]:checked").val();
+    var cssYes = $("input:radio [name=css id=cssYes]:checked").val(); //name of yes selection
+    var cssNo = $("input:radio [name=css id=cssNo]:checked").val(); //name of no selection
+    var cSharpYes = $("input:radio [name=cSharp id=cSharpYes]:checked").val(); //name of yes selection
+    var cSharpNo = $("input:radio [name=cSharp id=cSharpNo]:checked").val(); //name of no selection
+    var phpYes = $("input:radio [name=php id=phpYes]:checked").val(); //name of yes selection
+    var phpNo = $("input:radio [name=php id=phpNo]:checked").val(); //name of no selection
+    var java1 = $("input:radio [name=java1 id=java1Yes]:checked").val(); //name of yes selection
+    var java1 = $("input:radio [name=java1 id=java1No]:checked").val(); //name of no selection
+    var java2 = $("input:radio [name=java2 id=java2Yes]:checked").val(); //name of yes selection
+    var java2 = $("input:radio [name=java2 id=jav2No]:checked").val(); //name of no selection
 
-    $("yes").click(function(){
+    $("cssYes").click(function() {
       if (true) {
         $("#welcome").hide();
+        $("#result").show("You should join the CSS/Design course!");
+      }
+      else if (true) {
+        $("#cSharpQuestion").show();
+        $("cSharpYes").click(function() {
+          if (true) {
+            $("#welcome").hide();
+            $("#result").show("You should join the #C course!");
+          }
+          else {
+            $("")
+          }
+        });
       }
       else {
-        alert("They selected no");
+        $("#welcome").hide();
+        $("#result").show("You should join the PHP course!");
       }
     });
     //declare varables for all the inputs of the questions, which will be used in the if/else statements below.

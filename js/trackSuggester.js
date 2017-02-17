@@ -14,7 +14,7 @@ $(document).ready(function() {
     var java2Response = $("java2Answer").val();
 
     if ("cssResponse") { //if the first answer is yes, then replace the jumbotron with the text below.
-      $("#welcome").hide():
+      $("#welcome").hide();
       $("#result").show("You should join the CSS/Design course!");
     }
     else {

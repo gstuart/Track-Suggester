@@ -1,9 +1,10 @@
 $(document).ready(function() {
-  $("#beginBtn").click(function(){ //when the button is clicked do the following:
+  $("#beginBtn").click(function(){
+    //when the button is clicked do the following:
     alert("this is a test");
-    #beginBtn.hide(); //this will hide the beginbtn
+    ("#beginBtn").hide(); //this will hide the beginbtn
 
-    #cssQuestion.show(); //this will display the first question.
+    ("#cssQuestion").show(); //this will display the first question.
 
     //declare varables for all the inputs of the questions, which will be used in the if/else statements below.
     var cssResponse = $("#cssAnswer").val();
@@ -15,8 +16,8 @@ $(document).ready(function() {
     if (true) {
 
     } else {
-      #welcome.hide();
-      #result.show("You should join the PHP course!");
+      ("#welcome").hide();
+      ("result").show("You should join the PHP course!");
     }
 
     event.preventDefault();

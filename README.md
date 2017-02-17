@@ -1,4 +1,4 @@
-# _Track Suggestor_
+# _Track Suggester_
 
 #### _Intro to Programming Independent Project for Epicodus - Week Two 17 February 2017_
 

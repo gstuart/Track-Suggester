@@ -10,12 +10,13 @@ $(document).ready(function() {
   // var java1 = $("input:radio [name=java1 id=java1No]:checked").val(); //name of no selection
   // var java2 = $("input:radio [name=java2 id=java2Yes]:checked").val(); //name of yes selection
   // var java2 = $("input:radio [name=java2 id=jav2No]:checked").val(); //name of no selection
-  var radioChoice = $("input:radio[id=radioBtn]:checked").val;
+
+  var radioChoice = $("input:radio[id=radioBtn]:checked").val; // variable for all question selections, whether yes or no.
 
   $("#beginBtn").click(function() { // when the button is clicked do the following:
     $("#beginBtn").hide(); //this will hide the beginbtn
     $("#cssQuestion").show(); //this will display the first question.
-    $("cssYes").click(function() { //when a radio button is selected do the following:
+    $("radioChoice").click(function() { //when a radio button is selected do the following:
       if (true) { //if #1 question true, do the following:
         $("#welcome").hide(); //hide the jumbotron
         $("#result").show("You should join the CSS/Design course!"); //display CSS/Design course.

@@ -3,15 +3,6 @@
   background-color: #6a9fd8;
 }
 
-#result {
-  display:none;
-}
-
-
-#displayResult {
-
-}
-
 #beginBtn {
   background-color: #6a9fd8
 }
@@ -28,4 +19,25 @@
 #inDemand {
   font-weight: bold;
   font-style: italic;
+}
+
+#result {
+  display:none;
+}
+
+
+.java {
+
+}
+
+.cSharp {
+
+}
+
+.ruby {
+
+}
+
+.php {
+
 }

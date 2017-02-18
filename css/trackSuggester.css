@@ -4,7 +4,8 @@
 }
 
 #beginBtn {
-  background-color: #6a9fd8
+  background-color: #6a9fd8;
+  font-weight: bold;
 }
 
 #submitBtn {

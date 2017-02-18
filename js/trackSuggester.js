@@ -10,6 +10,7 @@ $(document).ready(function() {
   // var java1 = $("input:radio [name=java1 id=java1No]:checked").val(); //name of no selection
   // var java2 = $("input:radio [name=java2 id=java2Yes]:checked").val(); //name of yes selection
   // var java2 = $("input:radio [name=java2 id=jav2No]:checked").val(); //name of no selection
+  var radioChoice = $("input:radio[id=radioBtn]:checked").val;
 
   $("#beginBtn").click(function() { // when the button is clicked do the following:
     $("#beginBtn").hide(); //this will hide the beginbtn

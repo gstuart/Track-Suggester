@@ -24,28 +24,32 @@
         </div>
         <div class="col-sm-6"><!--will contain all the questions. each question will hide/show as they are answered-->
           <button class="btn btn-primary center-block" id="beginBtn" type="submit">Begin Track Suggester</button>
-          <div class="panel panel-info" id="cssQuestion">
-            <div class="panel-heading">
-              <p class="panel-title">
-                Do you think you would most like making webistes look and work well, while obsessing over layouts, navigation, colors, and design?
-              </p>
-            </div>
-            <div class="panel-body">
-              <div class="radio">
-                <label>
-                  <input type="radio" id="radioBtn" name="css" value="cssYes">
-                    Yes
-                </label>
+          <form id="formOne">
+            <div class="form-group">
+              <div class="panel panel-info" id="cssQuestion">
+              <div class="panel-heading">
+                <p class="panel-title">
+                  Do you think you would most like making webistes look and work well, while obsessing over layouts, navigation, colors, and design?
+                </p>
               </div>
-              <div class="radio">
-                <label>
-                  <input type="radio" id="radioBtn" name="css" value="cssNo">
-                    No
-                </label>
+              <div class="panel-body">
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="radioBtn" name="css" value="cssYes">
+                      Yes
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="radioBtn" name="css" value="cssNo">
+                      No
+                  </label>
+                </div>
               </div>
             </div>
-          </div>
-          <button class="btn btn-primary" type="submit" id="nextBtn">Next</button>
+              <button class="btn btn-primary" type="submit" id="nextBtn">Next</button>
+            </div>
+          </form>
           <div class="panel panel-info" id="cSharpQuestion">
             <div class="panel-heading">
               <p class="panel-title">

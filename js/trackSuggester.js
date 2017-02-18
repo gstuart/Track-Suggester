@@ -3,7 +3,8 @@ $(document).ready(function() {
 
   $("#beginBtn").click(function() { // when the button is clicked do the following:
     $("#beginBtn").hide(); //this will hide the beginbtn
-    $("#cssQuestion").show(); //this will display the first question.
+    $(".jumbotron").hide(); //this will hide the jubmotron
+    $("#form").show(); //this will display the form.
     $("#nextBtn").show();
     $("#nextBtn").click(function() { //when a radio button is selected do the following:
       if (true) { //if #1 question true, do the following:

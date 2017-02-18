@@ -20,6 +20,7 @@ $(document).ready(function() {
     $("#nextBtn").click(function() { //when a radio button is selected do the following:
       if (true) { //if #1 question true, do the following:
         $("#welcome").hide(); //hide the jumbotron
+        $("#cssQuestion").hide();
         $("#result").show("#displayResult" + "CSS/Design course!"); //display CSS/Design course.
       }
       else { //if #2 question NOT TRUE, do the following:

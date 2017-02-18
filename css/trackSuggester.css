@@ -7,32 +7,21 @@
   display:none;
 }
 
-#nextBtn {
+
+#displayResult {
+
+}
+
+#beginBtn {
+  background-color: #6a9fd8
+}
+
+#submitBtn {
   display:none;
 }
 
 #form {
 
-}
-
-#cssQuestion {
-  display: none;
-}
-
-#cSharpQuestion {
-  display: none;
-}
-
-#phpQuestion {
-  display: none;
-}
-
-#java1Question {
-  display: none;
-}
-
-#java2Question {
-  display: none;
 }
 
 #inDemand {

@@ -7,8 +7,6 @@ $(document).ready(function() {
     $("#form").show(); //this will display the form.
     $("#submitBtn").show();
 
-    });
-
     event.preventDefault();
   });
 });

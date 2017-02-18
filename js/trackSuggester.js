@@ -17,7 +17,7 @@ $(document).ready(function() {
     $("#beginBtn").hide(); //this will hide the beginbtn
     $("#cssQuestion").show(); //this will display the first question.
     $("#nextBtn").show();
-    $("radioChoice").click(function() { //when a radio button is selected do the following:
+    $("#nextBtn").click(function() { //when a radio button is selected do the following:
       if (true) { //if #1 question true, do the following:
         $("#welcome").hide(); //hide the jumbotron
         $("#result").show("You should join the CSS/Design course!"); //display CSS/Design course.

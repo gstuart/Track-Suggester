@@ -5,7 +5,7 @@ $(document).ready(function() {
     $("#beginBtn").hide(); //this will hide the beginbtn
     $(".jumbotron").hide(); //this will hide the jubmotron
     $("#form").show(); //this will display the form.
-    $("#nextBtn").show();
+    $("#submitBtn").show();
 
     });
 

@@ -29,6 +29,8 @@ $(document).ready(function() {
           $("cSharpYes").click(function() { //when a radio button is selected do the following:
             if (true) { //if #2 question true
               $("#welcome").hide(); //hide the jumbotron
+              $("#cSharpQuestion").hide();
+              $("#nextBtn").hide();
               $("#result").show("You should join the #C course!"); //display #C course
             }
             else { // if #2 question NOT TRUE
@@ -36,6 +38,8 @@ $(document).ready(function() {
                 $("phpYes").click(function() { //when a radio button is selected do the following:
                   if (true) { //if #3 question true
                     $("#welcome").hide(); //hide the jumbotron
+                    $("#phpQuestion").hide();
+                    $("#nextBtn").hide();
                     $("#result").show("You should join the Java course!"); //display Java course
                   }
                   else { // if #3 question NOT TRUE
@@ -43,6 +47,8 @@ $(document).ready(function() {
                       $("java1Yes").click(function() { //when a radio button is selected do the following:
                         if (true) { //if #4 question true
                           $("#welcome").hide(); //hide the jumbotron
+                          $("#java1Question").hide();
+                          $("#nextBtn").hide();
                           $("#result").show("You should join the PHP course!"); //display PHP course
                         }
                         else {  // if #4 question NOT TRUE
@@ -50,6 +56,8 @@ $(document).ready(function() {
                           $("java2Yes").click(function() {
                             if (true) { // if #5 question true do the following
                               $("#welcome").hide(); //hide the jumbotron
+                              $("#java2Question").hide();
+                              $("#nextBtn").hide();
                               $("#result").show("You should join the Java course!"); //display Java course.
                             }
                             else { //if #5 question NOT TRUE

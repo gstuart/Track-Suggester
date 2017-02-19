@@ -10,7 +10,21 @@ $(document).ready(function() {
       $("#questions").fadeOut(); // hide #questions
       // hide #submitBtn
       // function to determine which course user should take.
-        //
+        // if in question1 the value "java" is selected then
+          // display #welcome
+          // dispaly ("Based on your selections, you should go into the <bold><em>Java</bold></em> course. + #javaDscrptn")
+
+          // else if question1 the value "ruby" is selected then
+          // display #welcome
+          // dispaly "Based on your selections, you should go into the <bold><em>Ruby</bold></em> course. + #rubyDscrptn") in #welcome section
+
+          // else if question1 the value "cSharp" is selected then
+          // display #welcome
+          // dispaly ("Based on your selections, you should go into the <bold><em>C#</bold></em> course. + #cSharpDscrptn") in #welcome section
+
+        //else
+          // display #welcome 
+          // display ("Based on your selections, you should go into the <bold><em>PHP</bold></em> course. + #phpDscrptn") in #welcome section
     }); //closes submitbtn click
 
     event.preventDefault();

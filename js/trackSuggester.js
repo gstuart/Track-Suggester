@@ -3,7 +3,7 @@ $(document).ready(function() {
   var javaInput = $("input:radio[name=question6][value=java]:checked").val(); // variable for java selection
   var rubyInput = $("input:radio[name=question6][value=ruby]:checked").val(); // variable for ruby selection
   var cSharpInput = $("input:radio[name=question6][value=cSharp]:checked").val(); //variable for c# selection
-  var phpInput = $("input:radio[name=questaion6][value=php]:checked").val(); // variable for php selection
+  var phpInput = $("input:radio[name=question6][value=php]:checked").val(); // variable for php selection
 
   // user interface, or front-end, logic:
   $("button#beginBtn").click(function() { // when the button is clicked, do the following:

@@ -1,17 +1,21 @@
+body {
+  background-color: #e8d5b4;
+}
+
 .jumbotron {
   text-align: center;
-  background-color: #6a9fd8;
+  background-color: #77a2cf;
   margin: 20px;
 }
 
 #beginBtn {
-  background-color: #6a9fd8;
+  background-color: #77a2cf;
   font-weight: bold;
 }
 
 #submitBtn {
   display:none;
-  background-color: #6a9fd8;
+  background-color: #77a2cf;
   margin: 20px;
   font-weight: bold;
 }
@@ -24,10 +28,16 @@
   margin: 20px;
 }
 
+.panel {
+  border-color: #77a2cf;
+  border-width: 5px;
+}
+
 .panel-title {
-  background-color: #6a9fd8;
+  background-color: #77a2cf;
   text-align: center;
   padding: 5px;
+  font-weight: bold;
 }
 
 .panel-body {
@@ -41,7 +51,7 @@
 
 #result {
   display:none;
-  background-color: #d8b06a;
+  background-color: ##cfc577;
 }
 
 

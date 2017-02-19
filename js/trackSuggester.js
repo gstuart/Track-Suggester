@@ -17,7 +17,6 @@ $(document).ready(function() {
       $("#result").show();
       // function to determine which course user should take.
       if (javaInput) {
-        alert("java");
         $("#javaDscrptn").show(); // display #javaDscrption within #result section
       } // closes if statement
         else if (rubyInput) {

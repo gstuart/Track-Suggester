@@ -22,7 +22,7 @@ $(document).ready(function() {
           $("#result#cSharpDscrptn").show(); // display #cSharpDscrptn within #result section
         } // closes second else if statement
       else {
-        $("#result"#phpDscrptn).show(); // display #phpDscrption within #result section
+        $("#result#phpDscrptn").show(); // display #phpDscrption within #result section
       } // closes else statement
     }); //closes submitbtn click
 

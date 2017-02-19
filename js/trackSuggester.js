@@ -1,5 +1,5 @@
 $(document).ready(function() {
-//radioChoice = $("input:radio[id=radioBtn]:checked").val; // variable for all question selections, whether yes or no.
+  radioChoice = $("input:radio[class=radioBtn]:checked").val; // variable for all question selections, whether yes or no.
   $("button#beginBtn").click(function() { // when the button is clicked, do the following:
     $("button#beginBtn").hide(); // hide the beginbtn
     $(".jumbotron").hide(); // hide the jubmotron

@@ -5,21 +5,21 @@
 #### By _**Grace Stuart (gstuart)**_
 
 ## Description
-_A webpage (using HTML, CSS, JavaScript and jQuery) that asks future students a series of questions about themselves and provides a track suggestion based on their answers._
+A webpage (using HTML, CSS, Bootstrap, JavaScript, and jQuery) that asks future students a series of questions about themselves and provides a track suggestion based on their answers.
 
 ## Setup/Installation Requirements
-Go to gstuart.github.io/Track-Suggester or use the following instructions.
-1. _clone this repo. (to your Desktop)_
-2. _click on the html document titled index.html in repository folder_
-3. _This should open the .html document in the browser, no other steps needed._
+Go to gstuart.github.io/Track-Suggester or use the following instructions:
+
+1. Clone this repository onto your desktop. This will place the all files and folders in onto your computer.
+
+2. Click on the index.html file in the browser. This will allow you to view the file in your browser. If this does not open in your browser, navigate to project folder via your command line and type "open index.html".
 
 ## Know Bugs
-_There are no known bugs._
+There are no known bugs.
 
 ## Technology Used To Create Portfolio
-*_HTML, javascript, jquery, Bootstrap, and custom css._*
+HTML, CSS, Bootstrap, JavaScript, and jQuery.
 
-### License
-
+## License
 *GPL*
 Copyright (c) 2017 **_Grace Stuart_**

@@ -16,18 +16,15 @@ $(document).ready(function() {
       $("button#submitBtn").hide(); // hide #submitBtn
       // function to determine which course user should take.
       if (javaInput) {
-       $("input:radio[id=java]:checked").val; // if in question1 the value "java" is selected then
         alert("java");
         $("#result#java").show(); // display #javaDscrption within #result section
       } // closes if statement
         else if (rubyInput) {
           alert("esle if #1 - ruby");
-          $("input:radio[id=ruby]:checked").val(); // else if question1 the value "ruby" is selected then
           $("#result#rubyDscrptn").show(); // display #rubyDscrptn within #result section
         } // closes first else if statement
         else if (cSharpInput) {
           alert("else if #2 - c#");
-          $("input:radio[id=cSharp]:checked").val(); // else if question1 the value "cSharp" is selected then
           $("#result#cSharpDscrptn").show(); // display #cSharpDscrptn within #result section
         } // closes second else if statement
       else {

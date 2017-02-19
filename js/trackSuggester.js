@@ -10,16 +10,16 @@ $(document).ready(function() {
       $("button#submitBtn").hide();// hide #submitBtn
       // function to determine which course user should take.
         // if in question1 the value "java" is selected then
-          $("#result").show("Based on your selections, you should join the " + #java + " course!" + #javaDscrptn); // display #result section of jumbotron with ("Based on your selections, you should join the " + #java + " course!" + #javaDscrptn").
+          $("#result").show(#javaDscrptn); // display #result section of jumbotron with #javaDscrptn
 
           // else if question1 the value "ruby" is selected then
-          $("#result").show("Based on your selections, you should join the " + #ruby + " course." + #rubyDscrptn); // display #result with ("Based on your selections, you should join the " + #ruby + " course." + #rubyDscrptn)
+          $("#result").show(#rubyDscrptn); // display #result with #rubyDscrptn
 
           // else if question1 the value "cSharp" is selected then
-          $("#result").show("Based on your selections, you should join the " + #cSharp + " course." + #cSharpDscrptn); // display #result with ("Based on your selections, you should join the " + #cSharp + " course." + #cSharpDscrptn)
+          $("#result").show(#cSharpDscrptn); // display #result with #cSharpDscrptn
 
         //else
-          $("#result").show(#phpDscrptn); // display #result section of jumbotron with ("Based on your selections, you should join the " + #PHP + " course." + #phpDscrptn)
+          $("#result").show(#phpDscrptn); // display #result section of jumbotron with #phpDscrptn
     }); //closes submitbtn click
 
     event.preventDefault();

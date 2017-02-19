@@ -22,6 +22,10 @@
   background-color: #6a9fd8;
 }
 
+.panel-body {
+  border-color: #6a9fd8;
+}
+
 #inDemand {
   font-weight: bold;
   font-style: italic;

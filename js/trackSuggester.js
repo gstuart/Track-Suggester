@@ -16,7 +16,7 @@ $(document).ready(function() {
       $("button#submitBtn").hide(); // hide #submitBtn
       $("#result").show();
       // function to determine which course user should take.
-      if (javaInput) { 
+      if (javaInput) {
           $("#javaDscrptn").show(); // display #javaDscrption within #result section
       } // closes first else if statement
         else if (rubyInput) {

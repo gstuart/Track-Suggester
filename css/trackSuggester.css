@@ -23,6 +23,16 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  text-align: center;
+}
+
+img {
+  float: left;
+  max-height: 75px;
+  margin: 20px;
+}
+
 #beginBtn {
   background-color: #77a2cf;
   font-weight: bold;

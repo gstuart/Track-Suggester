@@ -1,9 +1,9 @@
 $(document).ready(function() {
   // business, or back-end, logic:
-  var javaInput = $("input:radio[name=question6][value=java]:checked").val; // variable for all java selections
-  var rubyInput = $("input:radio[name=question6][value=ruby]:checked").val; // variable for all ruby selections
-  var cSharpInput = $("input:radio[name=question6][value=cSharp]:checked").val; //variable for all c# selections
-  var phpInput = $("input:radio[name=questaion6][value=php]:checked").val; // variable for all php selections
+  var javaInput = $("input:radio[name=question6][value=java]:checked").val(); // variable for all java selections
+  var rubyInput = $("input:radio[name=question6][value=ruby]:checked").val(); // variable for all ruby selections
+  var cSharpInput = $("input:radio[name=question6][value=cSharp]:checked").val(); //variable for all c# selections
+  var phpInput = $("input:radio[name=questaion6][value=php]:checked").val(); // variable for all php selections
 
   // user interface, or front-end, logic:
   $("button#beginBtn").click(function() { // when the button is clicked, do the following:

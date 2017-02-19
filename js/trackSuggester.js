@@ -5,7 +5,7 @@ $(document).ready(function() {
     $(".jumbotron").hide(); // hide the jubmotron
     $("#questions").show(); // display the form and panels
     $("button#submitBtn").show(); // show the form submit button
-    $("button#submitBtn").submit(function() { //when submit button is clicked, do the following:
+    $("button#submitBtn").click(function() { //when submit button is clicked, do the following:
       $("#questions").fadeOut(); // hide #questions
       $("button#submitBtn").hide();// hide #submitBtn
       // function to determine which course user should take.

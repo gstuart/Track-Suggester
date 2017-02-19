@@ -10,19 +10,19 @@ $(document).ready(function() {
       $("button#submitBtn").hide();// hide #submitBtn
       // function to determine which course user should take.
       if (true) {
-        $("input:radio[id=javaDscrptn]:checked").val(); // if in question1 the value "java" is selected then
-        $("#result").show(#javaDscrptn); // display #result section of jumbotron with #javaDscrptn
+        $("input:radio[id=javaDscrptn]:checked").val; // if in question1 the value "java" is selected then
+        $("#result#javaDscrptn").show(); // display #javaDscrption within #result section
       } // closes if statement
         else if (true) {
           $("input:radio[id=rubyDscrptn]:checked").val(); // else if question1 the value "ruby" is selected then
-          $("#result").show(#rubyDscrptn); // display #result with #rubyDscrptn
+          $("#result#rubyDscrptn").show(); // display #rubyDscrptn within #result section
         } // closes first else if statement
         else if (true) {
           $("input:radio[id=cSharpDscrptn]:checked").val(); // else if question1 the value "cSharp" is selected then
-          $("#result").show(#cSharpDscrptn); // display #result with #cSharpDscrptn
+          $("#result#cSharpDscrptn").show(); // display #cSharpDscrptn within #result section
         } // closes second else if statement
       else {
-        $("#result").show(#phpDscrptn); // display #result section of jumbotron with #phpDscrptn
+        $("#result"#phpDscrptn).show(); // display #phpDscrption within #result section
       } // closes else statement
     }); //closes submitbtn click
 

@@ -19,7 +19,7 @@ $(document).ready(function() {
           $("#result").show("Based on your selections, you should go into the <bold><em>C#</bold></em> course. + #cSharpDscrptn"); // display #result with ("Based on your selections, you should go into the <bold><em>C#</bold></em> course. + #cSharpDscrptn")
 
         //else
-          #("#result").show("Based on your selections, you should go into the <bold><em>PHP</bold></em> course. + #phpDscrptn"); // display #result section of jumbotron with ("Based on your selections, you should go into the <bold><em>PHP</bold></em> course. + #phpDscrptn")
+          $("#result").show("Based on your selections, you should go into the <bold><em>PHP</bold></em> course. + #phpDscrptn"); // display #result section of jumbotron with ("Based on your selections, you should go into the <bold><em>PHP</bold></em> course. + #phpDscrptn")
     }); //closes submitbtn click
 
     event.preventDefault();

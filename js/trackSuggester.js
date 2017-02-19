@@ -16,26 +16,20 @@ $(document).ready(function() {
       $("button#submitBtn").hide(); // hide #submitBtn
       $("#result").show();
       // function to determine which course user should take.
-//      if (true) { //if no radio button is selected, display message
-//        alert("Please select an answer for all questions.")
-//        $("#questions").show(); // display the form and panels
-//        $("button#submitBtn").show(); // show the form submit button
-//      } // closes if statement
-//        else if (javaInput) {
-      if (javaInput) { // need to delete this when removing comments above!
+      if (javaInput) { 
           $("#javaDscrptn").show(); // display #javaDscrption within #result section
       } // closes first else if statement
         else if (rubyInput) {
-          alert("esle if #1 - ruby");
           $("#rubyDscrptn").show(); // display #rubyDscrptn within #result section
         } // closes second else if statement
         else if (cSharpInput) {
-          alert("else if #2 - c#");
           $("#cSharpDscrptn").show(); // display #cSharpDscrptn within #result section
         } // closes third else if statement
+        else if (phpInput) {
+          $("#phpDscrptn").show(); // display #phpDscrption within #result section
+        } // closes fourth else if statement
       else {
-        alert("esle - php");
-        $("#phpDscrptn").show(); // display #phpDscrption within #result section
+        alert("Please select an answer for all questions.") // displays if none of the selections in question6 are made.
       } // closes else statement
 
       event.preventDefault();

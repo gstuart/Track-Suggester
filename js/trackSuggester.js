@@ -1,6 +1,5 @@
 $(document).ready(function() {
   //radioChoice = $("input:radio[id=radioBtn]:checked").val; // variable for all question selections, whether yes or no.
-
   $("button#beginBtn").click(function() { // when the button is clicked do the following:
     $("button#beginBtn").hide(); //this will hide the beginbtn
     $(".jumbotron").hide(); //this will hide the jubmotron
@@ -8,7 +7,7 @@ $(document).ready(function() {
     $("button#submitBtn").show();
     $("button#submitBtn").submit(function() {
       $("#questions").fadeOut(); // hide #questions
-      // hide #submitBtn
+      $("button#submitBtn").hide();// hide #submitBtn
       // function to determine which course user should take.
         // if in question1 the value "java" is selected then
           // display #welcome
@@ -23,7 +22,7 @@ $(document).ready(function() {
           // dispaly ("Based on your selections, you should go into the <bold><em>C#</bold></em> course. + #cSharpDscrptn") in #welcome section
 
         //else
-          // display #welcome 
+          // display #welcome
           // display ("Based on your selections, you should go into the <bold><em>PHP</bold></em> course. + #phpDscrptn") in #welcome section
     }); //closes submitbtn click
 

@@ -70,3 +70,23 @@ body {
 #phpDscrptn {
   display:none;
 }
+
+#java {
+  font-weight: bold;
+  font-style: italic;
+}
+
+#cSharp {
+  font-weight: bold;
+  font-style: italic;
+}
+
+#ruby {
+  font-weight: bold;
+  font-style: italic;
+}
+
+#php {
+  font-weight: bold;
+  font-style: italic;
+}

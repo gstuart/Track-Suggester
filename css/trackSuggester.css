@@ -56,6 +56,11 @@ img {
 .panel {
   border-color: #77a2cf;
   border-width: 5px;
+  min-height: 275px;
+}
+
+.radio {
+  min-height: 45px;
 }
 
 .panel-title {

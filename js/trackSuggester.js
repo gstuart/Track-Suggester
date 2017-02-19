@@ -10,16 +10,16 @@ $(document).ready(function() {
       $("button#submitBtn").hide();// hide #submitBtn
       // function to determine which course user should take.
         // if in question1 the value "java" is selected then
-          $("#result").show("Based on your selections, you should join the <bold><em>Java</bold></em> course! + #javaDscrptn"); // display #result section of jumbotron with ("Based on your selections, you should go into the <bold><em>Java</bold></em> course. + #javaDscrptn").
+          $("#result").show("Based on your selections, you should join the <strong><em>Java</strong></em> course! + #javaDscrptn"); // display #result section of jumbotron with ("Based on your selections, you should go into the <bold><em>Java</bold></em> course. + #javaDscrptn").
 
           // else if question1 the value "ruby" is selected then
-          $("#result").show("Based on your selections, you should join the <bold><em>Ruby</bold></em> course. + #rubyDscrptn"); // display #result with ("Based on your selections, you should go into the <bold><em>Ruby</bold></em> course. + #rubyDscrptn")
+          $("#result").show("Based on your selections, you should join the <strong><em>Ruby</strong></em> course. + #rubyDscrptn"); // display #result with ("Based on your selections, you should go into the <bold><em>Ruby</bold></em> course. + #rubyDscrptn")
 
           // else if question1 the value "cSharp" is selected then
-          $("#result").show("Based on your selections, you should join the <bold><em>C#</bold></em> course. + #cSharpDscrptn"); // display #result with ("Based on your selections, you should go into the <bold><em>C#</bold></em> course. + #cSharpDscrptn")
+          $("#result").show("Based on your selections, you should join the <strong><em>C#</strong></em> course. + #cSharpDscrptn"); // display #result with ("Based on your selections, you should go into the <bold><em>C#</bold></em> course. + #cSharpDscrptn")
 
         //else
-          $("#result").show("Based on your selections, you should join the <bold><em>PHP</bold></em> course. + #phpDscrptn"); // display #result section of jumbotron with ("Based on your selections, you should go into the <bold><em>PHP</bold></em> course. + #phpDscrptn")
+          $("#result").show("Based on your selections, you should join the <strong><em>PHP</strong></em> course. + #phpDscrptn"); // display #result section of jumbotron with ("Based on your selections, you should go into the <bold><em>PHP</bold></em> course. + #phpDscrptn")
     }); //closes submitbtn click
 
     event.preventDefault();

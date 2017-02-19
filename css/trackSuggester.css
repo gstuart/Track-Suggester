@@ -1,7 +1,7 @@
 .jumbotron {
   text-align: center;
   background-color: #6a9fd8;
-  margin: 50px;
+  margin: 20px;
 }
 
 #beginBtn {
@@ -12,6 +12,8 @@
 #submitBtn {
   display:none;
   background-color: #6a9fd8;
+  margin: 20px;
+  font-weight: bold;
 }
 
 #form {

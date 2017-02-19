@@ -8,13 +8,13 @@ $(document).ready(function() {
   // user interface, or front-end, logic:
   $("button#beginBtn").click(function() { // when the button is clicked, do the following:
     $("button#beginBtn").hide(); // hide the beginbtn
-    $(".jumbotron").hide(); // hide the jubmotron
+    $("#welcome").hide(); // hide the jubmotron
     $("#questions").show(); // display the form and panels
     $("button#submitBtn").show(); // show the form submit button
     $("button#submitBtn").click(function() { //when submit button is clicked, do the following:
       $("#questions").fadeOut(); // hide #questions
       $("button#submitBtn").hide(); // hide #submitBtn
-      $("#result").show(); // show results section
+      $("#result").show();
       // function to determine which course user should take.
       if (javaInput) {
         alert("java");

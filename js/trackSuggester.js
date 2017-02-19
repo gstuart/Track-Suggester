@@ -14,10 +14,11 @@ $(document).ready(function() {
     $("button#submitBtn").click(function() { //when submit button is clicked, do the following:
       $("#questions").fadeOut(); // hide #questions
       $("button#submitBtn").hide(); // hide #submitBtn
+      $("#result").show(); // show results section
       // function to determine which course user should take.
       if (javaInput) {
         alert("java");
-        $("#result#java").show(); // display #javaDscrption within #result section
+        $("#javaDscrptn").show(); // display #javaDscrption within #result section
       } // closes if statement
         else if (rubyInput) {
           alert("esle if #1 - ruby");

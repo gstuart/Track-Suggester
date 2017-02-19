@@ -14,12 +14,12 @@
   background-color: #6a9fd8;
   margin: 20px;
   font-weight: bold;
-
 }
 
 #form {
  display: none;
 }
+
 .row {
   margin: 20px;
 }
@@ -27,13 +27,11 @@
 .panel-title {
   background-color: #6a9fd8;
   text-align: center;
-  font-family: sans-serif;
-
+  padding: 5px;
 }
 
 .panel-body {
   background-color: #b4cde8;
-  font-family: sans-serif;
 }
 
 #inDemand {
@@ -43,6 +41,7 @@
 
 #result {
   display:none;
+  background-color: #d8b06a;
 }
 
 

@@ -33,7 +33,6 @@ $(document).ready(function() {
       } // closes else statement
 
       event.preventDefault();
-
     }); //closes submitbtn click
   }); //closes beginbtn click
 }); //closes document.ready

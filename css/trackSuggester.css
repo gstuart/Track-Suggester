@@ -2,10 +2,25 @@ body {
   background-color: #e8d5b4;
 }
 
-.jumbotron {
+#welcome {
   text-align: center;
   background-color: #77a2cf;
   margin: 20px;
+}
+
+#result {
+  display:none;
+  margin: 20px;
+  background-color: ##cfc577;
+  font-family: sans-serif;
+}
+
+p {
+  text-align: justify;
+}
+
+h1 {
+  text-align: center;
 }
 
 #beginBtn {
@@ -48,12 +63,6 @@ body {
   font-weight: bold;
   font-style: italic;
 }
-
-#result {
-  display:none;
-  background-color: ##cfc577;
-}
-
 
 #javaDscrptn {
   display:none;

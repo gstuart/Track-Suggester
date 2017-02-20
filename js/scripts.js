@@ -18,6 +18,7 @@ $(document).ready(function() {
       $("#questions").hide(); // hide #questions
       $("button#submitBtn").hide(); // hide #submitBtn
       // function to determine which course description to display.
+      debugger;
       var result;
       if (q6Selection === "java") { // if the value of q6 is java, do the following:
         alert("test");
@@ -33,7 +34,7 @@ $(document).ready(function() {
           result = phpDscrptn; // display #phpDscrption within #result section
         } // closes fourth else if statement
       else {
-        alert("Please select an answer for all questions.") // displays if none of the selections in question6 are made.
+  //      alert("Please select an answer for all questions.") // displays if none of the selections in question6 are made.
       } // closes else statement
       $("#result").text(result);
 

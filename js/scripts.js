@@ -1,9 +1,6 @@
 $(document).ready(function() {
   // business, or back-end, logic:
-  var javaInput = $("input:radio[name=question6][value=java]:checked").val(); // variable for java selection
-  var rubyInput = $("input:radio[name=question6][value=ruby]:checked").val(); // variable for ruby selection
-  var cSharpInput = $("input:radio[name=question6][value=cSharp]:checked").val(); //variable for c# selection
-  var phpInput = $("input:radio[name=question6][value=php]:checked").val(); // variable for php selection
+  var userSelection = $("input:radio[name=question6]:checked").val(); // variable for all selections selection
 
   // user interface, or front-end, logic:
   $("button#beginBtn").click(function() { // when the button is clicked, do the following:
@@ -14,23 +11,24 @@ $(document).ready(function() {
     $("button#submitBtn").click(function() { //when submit button is clicked, do the following:
       $("#questions").hide(); // hide #questions
       $("button#submitBtn").hide(); // hide #submitBtn
-      $("#result").show();
-      // function to determine which course user should take.
-      if (javaInput) {
-          $("#javaDscrptn").show(); // display #javaDscrption within #result section
+      // function to determine which course description to display.
+      var result;
+      if (userSelection === "java") {
+        result = javaDscrptn; // display #javaDscrption within #result section
       } // closes first else if statement
-        else if (rubyInput) {
-          $("#rubyDscrptn").show(); // display #rubyDscrptn within #result section
+        else if (userSelection === "ruby") {
+        result = rubyDscrptn; // display #rubyDscrptn within #result section
         } // closes second else if statement
-        else if (cSharpInput) {
-          $("#cSharpDscrptn").show(); // display #cSharpDscrptn within #result section
+        else if (userSelection === "cSharp") {
+        result = cSharpDscrptn; // display #cSharpDscrptn within #result section
         } // closes third else if statement
-        else if (phpInput) {
-          $("#phpDscrptn").show(); // display #phpDscrption within #result section
+        else if (userSelection === "php") {
+          result = phpDscrptn; // display #phpDscrption within #result section
         } // closes fourth else if statement
       else {
         alert("Please select an answer for all questions.") // displays if none of the selections in question6 are made.
       } // closes else statement
+      $("#result").text(result);
 
       event.preventDefault();
     }); //closes submitbtn click

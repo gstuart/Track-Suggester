@@ -1,6 +1,6 @@
 $(document).ready(function() {
   // business, or back-end, logic:
-  var userSelection = $("input:radio[name=question6]:checked").val(); // variable for all selections selection
+  var q6Selection = $("input:radio[name=question6]:checked").val(); // variable for question6 selections
 
   // user interface, or front-end, logic:
   $("button#beginBtn").click(function() { // when the button is clicked, do the following:
@@ -13,16 +13,17 @@ $(document).ready(function() {
       $("button#submitBtn").hide(); // hide #submitBtn
       // function to determine which course description to display.
       var result;
-      if (userSelection === "java") {
+      if (q6Selection === "java") {
+        alert("test");
         result = javaDscrptn; // display #javaDscrption within #result section
       } // closes first else if statement
-        else if (userSelection === "ruby") {
+        else if (q6Selection === "ruby") {
         result = rubyDscrptn; // display #rubyDscrptn within #result section
         } // closes second else if statement
-        else if (userSelection === "cSharp") {
+        else if (q6Selection === "cSharp") {
         result = cSharpDscrptn; // display #cSharpDscrptn within #result section
         } // closes third else if statement
-        else if (userSelection === "php") {
+        else if (q6Selection === "php") {
           result = phpDscrptn; // display #phpDscrption within #result section
         } // closes fourth else if statement
       else {

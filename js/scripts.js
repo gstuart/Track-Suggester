@@ -19,7 +19,7 @@ $(document).ready(function() {
       $("button#submitBtn").hide(); // hide #submitBtn
       // function to determine which course description to display.
       var result;
-      if (q6Selection === "java") {
+      if (q6Selection === "java") { // if the value of q6 is java, do the following:
         alert("test");
         result = javaDscrptn; // display #javaDscrption within #result section
       } // closes first else if statement

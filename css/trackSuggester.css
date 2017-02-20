@@ -9,7 +9,7 @@ body {
 }
 
 #result {
-  display:none;
+  display: none;
   margin: 20px;
   background-color: #c2b4e8;
   font-family: sans-serif;

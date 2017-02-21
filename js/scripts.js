@@ -1,13 +1,10 @@
 $(document).ready(function() {
   // user interface, or front-end, logic:
   $("button#beginBtn").click(function() { // when the button is clicked, do the following:
-    $("button#beginBtn").hide(); // hide the beginbtn
-    $("#welcome").hide(); // hide the jubmotron
-    $("#questions").show(); // display the form and panels
-    $("button#submitBtn").show(); // show the form submit button
+    $("button#beginBtn, #welcome").hide(); // hide the beginbtn and jubmotron
+    $("#questions, button#submitBtn").show(); // display the form, submit button, and panels
     $("button#submitBtn").click(function() { //when submit button is clicked, do the following:
-      $("#questions").hide(); // hide #questions
-      $("button#submitBtn").hide(); // hide #submitBtn
+      $("#questions, button#submitBtn").hide(); // hide #questions and submitbutton
       // function to determine which course description to display.
       // business, or back-end, logic:
       // following are commented out until function using them is created.

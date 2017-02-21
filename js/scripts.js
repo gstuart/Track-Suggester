@@ -33,8 +33,7 @@ $(document).ready(function() {
         alert("Please select an answer for all questions.") // displays if none of the selections in question6 are made.
         $("#questions, button#submitBtn").show(); // display the form, panels, and submit button
       } // closes else statement
-//LINE 37 IS THROWING THE ERROR "NOT A FUNCTION"
-      result.show();
+      $("#result").show("result");
       event.preventDefault();
     }); //closes submitbtn click
   }); //closes beginbtn click

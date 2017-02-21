@@ -32,8 +32,7 @@ $(document).ready(function() {
         } // closes fourth else if statement
       else {
         alert("Please select an answer for all questions.") // displays if none of the selections in question6 are made.
-        $("#questions").show(); // display the form and panels
-        $("button#submitBtn").show(); // show the form submit button
+        $("#questions, button#submitBtn").show(); // display the form, panels, and submit button
       } // closes else statement
       event.preventDefault();
     }); //closes submitbtn click

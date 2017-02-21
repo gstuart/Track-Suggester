@@ -17,7 +17,6 @@ $(document).ready(function() {
       // var q4Selection = $("input:radio[name=question4]:checked".val();
       // var q5Selection = $("input:radio[name=question5]:checked".val();
       var q6Selection = $("input:radio[name=question6]:checked").val(); // variable for question6 selections
-      debugger;
       var result;
       if (q6Selection === "java") { // if the value of q6 is java, do the following:
         alert("test");

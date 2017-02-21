@@ -38,7 +38,7 @@ $(document).ready(function() {
   //      alert("Please select an answer for all questions.") // displays if none of the selections in question6 are made.
       } // closes else statement
       $("#result").text(result);
-      $("#result").show();
+//      $("#result").show();
       event.preventDefault();
     }); //closes submitbtn click
   }); //closes beginbtn click

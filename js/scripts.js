@@ -16,9 +16,9 @@ $(document).ready(function() {
       var q6Selection = $("input:radio[name=question6]:checked").val(); // variable for question6 selections
       var result;
       if (q6Selection === "java") { // if the value of q6 is java, do the following:
-        result = javaDscrptn; // display #javaDscrption within #result section
-        $("#result").show(result); //this allows the result background to display.
-        //    result.show();
+        result = javaDscrptn;
+      //  $("#result").show(result); // display #javaDscrption within #result section.
+      //  result.show();
       } // closes first else if statement
         else if (q6Selection === "ruby") {
         result = rubyDscrptn; // display #rubyDscrptn within #result section
@@ -33,6 +33,8 @@ $(document).ready(function() {
         alert("Please select an answer for all questions.") // displays if none of the selections in question6 are made.
         $("#questions, button#submitBtn").show(); // display the form, panels, and submit button
       } // closes else statement
+//LINE 37 IS THROWING THE ERROR "NOT A FUNCTION"
+      result.show();
       event.preventDefault();
     }); //closes submitbtn click
   }); //closes beginbtn click

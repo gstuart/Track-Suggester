@@ -1,13 +1,4 @@
 $(document).ready(function() {
-  // business, or back-end, logic:
-
-  // following are commented out until function using them is created.
-  // var q1Selection = $("input:radio[name=question1]:checked").val()
-  // var q2Selection = $("input:radio[name=question2]:checked").val();
-  // var q3Selection = $("input:radio[name=question3]:checked".val();
-  // var q4Selection = $("input:radio[name=question4]:checked".val();
-  // var q5Selection = $("input:radio[name=question5]:checked".val();
-
   // user interface, or front-end, logic:
   $("button#beginBtn").click(function() { // when the button is clicked, do the following:
     $("button#beginBtn").hide(); // hide the beginbtn
@@ -18,6 +9,13 @@ $(document).ready(function() {
       $("#questions").hide(); // hide #questions
       $("button#submitBtn").hide(); // hide #submitBtn
       // function to determine which course description to display.
+      // business, or back-end, logic:
+      // following are commented out until function using them is created.
+      // var q1Selection = $("input:radio[name=question1]:checked").val()
+      // var q2Selection = $("input:radio[name=question2]:checked").val();
+      // var q3Selection = $("input:radio[name=question3]:checked".val();
+      // var q4Selection = $("input:radio[name=question4]:checked".val();
+      // var q5Selection = $("input:radio[name=question5]:checked".val();
       var q6Selection = $("input:radio[name=question6]:checked").val(); // variable for question6 selections
       debugger;
       var result;

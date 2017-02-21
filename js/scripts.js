@@ -20,8 +20,10 @@ $(document).ready(function() {
       var result;
       if (q6Selection === "java") { // if the value of q6 is java, do the following:
         alert("test");
-        result = javaDscrptn; // display #javaDscrption within #result section
-        $("#result").text(result); // display text. this allows alert to display
+        // result = javaDscrptn; // display #javaDscrption within #result section
+        // $("#result").text(result); // display text. this allows alert to display
+      //  $("#result").show(javaDscrptn); //this allows the result background to display.
+        result.show();
       } // closes first else if statement
         else if (q6Selection === "ruby") {
         result = rubyDscrptn; // display #rubyDscrptn within #result section
@@ -35,8 +37,6 @@ $(document).ready(function() {
       else {
   //      alert("Please select an answer for all questions.") // displays if none of the selections in question6 are made.
       } // closes else statement
-      $("#result").show();
-  //    $("#result").text(result);
       event.preventDefault();
     }); //closes submitbtn click
   }); //closes beginbtn click

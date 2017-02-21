@@ -1,6 +1,6 @@
 $(document).ready(function() {
   // business, or back-end, logic:
-  var q6Selection = $("input:radio[name=question6]:checked").val(); // variable for question6 selections
+
   // following are commented out until function using them is created.
   // var q1Selection = $("input:radio[name=question1]:checked").val()
   // var q2Selection = $("input:radio[name=question2]:checked").val();
@@ -18,6 +18,7 @@ $(document).ready(function() {
       $("#questions").hide(); // hide #questions
       $("button#submitBtn").hide(); // hide #submitBtn
       // function to determine which course description to display.
+      var q6Selection = $("input:radio[name=question6]:checked").val(); // variable for question6 selections
       debugger;
       var result;
       if (q6Selection === "java") { // if the value of q6 is java, do the following:

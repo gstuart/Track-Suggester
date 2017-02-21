@@ -20,9 +20,8 @@ $(document).ready(function() {
       var result;
       if (q6Selection === "java") { // if the value of q6 is java, do the following:
         alert("test");
-        // result = javaDscrptn; // display #javaDscrption within #result section
-        // $("#result").text(result); // display text. this allows alert to display
-        $("#result").show(javaDscrptn); //this allows the result background to display.
+        result = javaDscrptn; // display #javaDscrption within #result section
+        $("#result").show(result); //this allows the result background to display.
         //    result.show();
       } // closes first else if statement
         else if (q6Selection === "ruby") {

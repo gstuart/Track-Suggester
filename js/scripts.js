@@ -16,17 +16,21 @@ $(document).ready(function() {
       var q6Selection = $("input:radio[name=question6]:checked").val(); // variable for question6 selections
       var result;
       if (q6Selection === "java") { // if the value of q6 is java, do the following:
+        alert("java result");
         result = javaDscrptn;
       //  $("#result").show(result); // display #javaDscrption within #result section.
       //  result.show();
       } // closes first else if statement
         else if (q6Selection === "ruby") {
-        result = rubyDscrptn; // display #rubyDscrptn within #result section
+          alert("ruby result");
+          result = rubyDscrptn; // display #rubyDscrptn within #result section
         } // closes second else if statement
         else if (q6Selection === "cSharp") {
-        result = cSharpDscrptn; // display #cSharpDscrptn within #result section
+          alert("ruby result");
+          result = cSharpDscrptn; // display #cSharpDscrptn within #result section
         } // closes third else if statement
         else if (q6Selection === "php") {
+          alert("php result");
           result = phpDscrptn; // display #phpDscrption within #result section
         } // closes fourth else if statement
       else {

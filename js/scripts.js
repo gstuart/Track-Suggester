@@ -16,8 +16,8 @@ $(document).ready(function() {
       var q6Selection = $("input:radio[name=question6]:checked").val(); // variable for question6 selections
       var result;
       if (q6Selection === "java") { // if the value of q6 is java, do the following:
-        alert(javaDscrptn);
         result = javaDscrptn;
+        console.log(result);
       //  $("#result").show(result); // display #javaDscrption within #result section.
       //  result.show();
       } // closes first else if statement

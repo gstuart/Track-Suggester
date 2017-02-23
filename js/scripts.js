@@ -14,17 +14,14 @@ $(document).ready(function() {
       //  result.show(); //when this is used the welcome screen displayed when submitBtn is clicked and an error is displayed saying this is NOT a function.
       }
         else if (q6Selection === "ruby") {
-          alert("ruby result");
           result = rubyDscrptn;
           $("#result").show();
           $("#rubyDscrptn").show();
         }
         else if (q6Selection === "cSharp") {
-          alert("ruby result");
           result = cSharpDscrptn;
         }
         else if (q6Selection === "php") {
-          alert("php result");
           result = phpDscrptn;
         }
       else {

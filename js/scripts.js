@@ -16,6 +16,8 @@ $(document).ready(function() {
         else if (q6Selection === "ruby") {
           alert("ruby result");
           result = rubyDscrptn;
+          $("#result").show();
+          $("#rubyDscrptn").show();
         }
         else if (q6Selection === "cSharp") {
           alert("ruby result");

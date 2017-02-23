@@ -17,8 +17,8 @@ $(document).ready(function() {
       var result;
       if (q6Selection === "java") { // if the value of q6 is java, do the following:
         result = javaDscrptn;
-      //  $("#result").show(result); // display #javaDscrption within #result section.
-        result.show();
+        $("#result").show(result); // display #javaDscrption within #result section.
+      //  result.show();
       } // closes first else if statement
         else if (q6Selection === "ruby") {
           alert("ruby result");

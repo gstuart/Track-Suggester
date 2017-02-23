@@ -7,9 +7,9 @@ $(document).ready(function() {
       var q6Selection = $("input:radio[name=question6]:checked").val();
       var result;
       if (q6Selection === "java") {
-        result = (#javaDscrptn); 
-        $("#result").show(result); // displays all content within #result section.
-      //  result.show(); //when this is used the
+        result = ("#javaDscrptn"); // quotes are needed.
+      //  $("#result").show(result); // displays all content within #result section.
+        result.show(); //when this is used the
       }
         else if (q6Selection === "ruby") {
           alert("ruby result");

@@ -18,11 +18,12 @@ $(document).ready(function() {
       if (q6Selection === "java") { // if the value of q6 is java, do the following:
         result = javaDscrptn;
       //  $("#result").show(result); // display #javaDscrption within #result section.
-      //  result.show();
+        result.show();
       } // closes first else if statement
         else if (q6Selection === "ruby") {
           alert("ruby result");
           result = rubyDscrptn; // display #rubyDscrptn within #result section
+
         } // closes second else if statement
         else if (q6Selection === "cSharp") {
           alert("ruby result");
@@ -37,7 +38,6 @@ $(document).ready(function() {
         $("#questions, button#submitBtn").show(); // display the form, panels, and submit button
       } // closes else statement
   //    $("#result").show(result);
-  result.show();
       event.preventDefault();
     }); //closes submitbtn click
   }); //closes beginbtn click

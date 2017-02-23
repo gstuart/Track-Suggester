@@ -7,7 +7,7 @@ $(document).ready(function() {
       var q6Selection = $("input:radio[name=question6]:checked").val();
       var result;
       if (q6Selection === "java") {
-        result = javaDscrptn;
+        result = ("#javaDscrptn");
         $("#result").show(result); // displays all content within #result section.
       //  result.show(); //when this is used the
       }
@@ -26,7 +26,7 @@ $(document).ready(function() {
       else {
         alert("Please select an answer for all questions.")
         $("#questions, button#submitBtn").show();
-      } 
+      }
       event.preventDefault();
     });
   });

@@ -6,20 +6,16 @@ $(document).ready(function() {
       $("#questions, button#submitBtn").hide();
       var q6Selection = $("input:radio[name=question6]:checked").val();
       if (q6Selection === "java") {
-        $("#javaDscrptn").show();
-        $("#result").show();
+        $("#javaDscrptn, #result").show();
       }
         else if (q6Selection === "ruby") {
-          $("#result").show();
-          $("#rubyDscrptn").show();
+          $("#result, #rubyDscrptn").show();
         }
         else if (q6Selection === "cSharp") {
-          $("#result").show();
-          $("#cSharpDscrptn").show();
+          $("#result, #cSharpDscrptn").show();
         }
         else if (q6Selection === "php") {
-          $("#result").show();
-          $("#phpDscrptn").show();
+          $("#result, #phpDscrptn").show();
         }
       else {
         alert("Please select an answer for all questions.")

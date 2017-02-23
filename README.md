@@ -15,7 +15,7 @@ Go to gstuart.github.io/Track-Suggester or use the following instructions:
 2. Click on the index.html file in the browser. This will allow you to view the file in your browser. If this does not open in your browser, navigate to project folder via your command line and type "open index.html".
 
 ## Know Bugs
-1. When a user makes various selections, JAVA course is always displayed. The jQuery function on submitBtn.click is not functioning. 
+1. Only the question on the bottom row, far right, returns a result. This is functioning as designed.
 
 ## Technology Used To Create Portfolio
 HTML, CSS, Bootstrap, JavaScript, and jQuery.

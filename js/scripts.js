@@ -8,8 +8,9 @@ $(document).ready(function() {
       var result;
       if (q6Selection === "java") {
         result = ("#javaDscrptn"); // quotes are needed.
-      //  $("#result").show(result); // displays all content within #result section.
-        result.show(); //when this is used the
+        $("#javaDscrptn").show;
+      //  $("#result").show(result); // displays all content within #result section. if content hidden with css, then empty div is displayed. if content unhidden, then all content is displayed
+      //  result.show(); //when this is used the welcome screen displayed when submitBtn is clicked and an error is displayed saying this is NOT a function.
       }
         else if (q6Selection === "ruby") {
           alert("ruby result");

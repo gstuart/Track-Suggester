@@ -20,9 +20,13 @@ $(document).ready(function() {
         }
         else if (q6Selection === "cSharp") {
           result = cSharpDscrptn;
+          $("#result").show();
+          $("#cSharpDscrptn").show();
         }
         else if (q6Selection === "php") {
           result = phpDscrptn;
+          $("#result").show();
+          $("#phpDscrptn").show();
         }
       else {
         alert("Please select an answer for all questions.")

@@ -27,7 +27,7 @@ $(document).ready(function() {
     $("button#submitBtn").click(function() {
       $("#questions, button#submitBtn").hide();
       var q6Selection = $("input:radio[name=question6]:checked").val();
-      var output = result(userInput);
+      var output = result(q6Selection);
       // need to call back end logic
 
     });

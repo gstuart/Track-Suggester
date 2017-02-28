@@ -15,6 +15,7 @@ var result = function(q6Selection){
     alert("Please select an answer for all questions.")
     $("#questions, button#submitBtn").show();
   }
+  return result;
 };// need to return back-end logic
 
 // Front-end logic below this line
@@ -28,7 +29,6 @@ $(document).ready(function() {
       var q6Selection = $("input:radio[name=question6]:checked").val();
       var output = result(q6Selection);
       // need to call back end logic
-
     });
   });
 });

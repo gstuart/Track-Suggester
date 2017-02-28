@@ -20,14 +20,14 @@ return result;
 
 // Front-end logic below this line
 $(document).ready(function() {
-  $("button#beginBtn").click(function(event) {
-    event.preventDefault();
+  $("button#beginBtn").click(function() {
     $("button#beginBtn, #welcome").hide();
     $("#questions, button#submitBtn").show();
-    $("button#submitBtn").click(function() {
+    $("button#submitBtn").click(function(event) {
+      event.preventDefault();
       $("#questions, button#submitBtn").hide();
       var q6Selection = $("input:radio[name=question6]:checked").val();
-      var output = result(q6Selection);
+      var output = result(q6Selection);      
     });
   });
 });

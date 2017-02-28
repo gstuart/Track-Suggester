@@ -1,4 +1,3 @@
-// Back-end logic
 var result = function(q6Selection){
   if (q6Selection === "java") {
     $("#javaDscrptn, #result").show();
@@ -20,7 +19,7 @@ var result = function(q6Selection){
 
 // Front-end logic below this line
 $(document).ready(function() {
-  $("button#beginBtn").click(function() {
+  $("button#beginBtn").click(function(event) {
     event.preventDefault();
     $("button#beginBtn, #welcome").hide();
     $("#questions, button#submitBtn").show();

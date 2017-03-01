@@ -19,12 +19,13 @@ $(document).ready(function() {
     $("button#submitBtn").click(function() {
       event.preventDefault();
       $("#questions, button#submitBtn").hide();
-      var q1Selection = $("input:radio[name=question1]:checked").val();
-      var q2Selection = $("input:radio[name=question2]:checked").val();
-      var q3Selection = $("input:radio[name=question3]:checked").val();
-      var q4Selection = $("input:radio[name=question4]:checked").val();
-      var q5Selection = $("input:radio[name=question4]:checked").val();
-      var q6Selection = $("input:radio[name=question6]:checked").val();
+      var selection = $(this).val(); // will this be the variable for each question? SHUT THE DOOR THIS WORKS
+      // var q1Selection = $("input:radio[name=question1]:checked").val();
+      // var q2Selection = $("input:radio[name=question2]:checked").val();
+      // var q3Selection = $("input:radio[name=question3]:checked").val();
+      // var q4Selection = $("input:radio[name=question4]:checked").val();
+      // var q5Selection = $("input:radio[name=question4]:checked").val();
+      // var q6Selection = $("input:radio[name=question6]:checked").val();
       var output = result(q6Selection);
     });
   });

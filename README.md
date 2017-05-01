@@ -12,7 +12,7 @@ Go to [gstuart.github.io/Track-Suggester](https://gstuart.github.io/Track-Sugges
 
 1. Clone this repository onto your desktop. This will place the all files and folders in onto your computer.
 
-2. Click on the index.html file in the browser. This will allow you to view the file in your browser. If this does not open in your browser, navigate to project folder via your command line and type "open index.html".
+2. In your terminal enter `open index.html`.
 
 ## Know Bugs
 * Only the question on the bottom row, far right, returns a result. This is functioning as designed.
